@@ -14,7 +14,7 @@ logparser.on('item', function(item) {
 });
 
 // Parse log
-var parsedLog = logparser.parse('apache/access-full.log');
+var parsedLog = logparser.parse('apache/access.log');
 
 // Get the object list of all parsed lines
 parsedLog.done(function(parsedLog) {
