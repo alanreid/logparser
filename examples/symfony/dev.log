@@ -1,0 +1,6 @@
+[2014-05-26 13:39:02] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". [] []
+[2014-05-26 13:39:02] event.DEBUG: Listener "Symfony\Component\Security\Http\Firewall::onKernelRequest" stopped propagation of the event "kernel.request". [] []
+[2014-05-26 13:39:02] doctrine.DEBUG: "START TRANSACTION" [] []
+[2014-05-26 13:39:02] doctrine.DEBUG: UPDATE site_user SET last_login = ? WHERE id = ? ["2014-05-26 13:39:02",1208] []
+[2014-05-26 13:39:02] doctrine.DEBUG: "COMMIT" [] []
+[2014-05-26 13:39:02] security.DEBUG: Write SecurityContext in the session [] []
